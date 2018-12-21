@@ -1,0 +1,17 @@
+{
+  "name": "study-tests",
+  "version": "1.0.0",
+  "description": "This project is used to show some examples of javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha lib/**/**.spec.js",
+    "example": "mocha lib/example.spec.js",
+    "test1": "mocha lib/test1.spec.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
